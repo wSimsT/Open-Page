@@ -64,6 +64,7 @@ class GenerateRecommendation implements ActionListener{
                     sb.append(scanner.nextLine());
                 }
                 System.out.println(sb);
+                
                 scanner.close();
             } catch (IOException e1) {
                 // TODO Auto-generated catch block
